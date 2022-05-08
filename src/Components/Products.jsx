@@ -164,6 +164,7 @@ const Products = ({ data }) => {
                         >
                            {e.brand}
                         </Typography>
+                       <div style={{ height: "6rem" }}>
                         <Typography
                            variant="body2"
                            color="text.secondary"
@@ -171,6 +172,7 @@ const Products = ({ data }) => {
                         >
                            {e.title}
                         </Typography>
+                        </div>
                         <div style={{ display: "flex" }}>
                            <Typography
                               sx={{ fontSize: 14, fontWeight: "bold" }}
